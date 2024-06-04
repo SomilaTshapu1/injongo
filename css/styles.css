@@ -1,0 +1,280 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #001f3f;
+    /* Navy blue */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-us h1 {
+    color: #001f3f;
+    /* Navy blue */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+.contact-details {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: left;
+    /* Align contact details to the left */
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+.contact-details i {
+    color: #001f3f;
+    /* Navy blue */
+    margin-right: 10px;
+    width: 20px;
+    /* Set a fixed width for icons */
+    display: inline-block;
+    /* Ensure icons align properly */
+    text-align: center;
+    /* Center the icon content */
+}
+
+.contact-details a {
+    color: #001f3f;
+    text-decoration: none;
+}
+
+.map-container {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #001f3f;
+    /* Navy blue */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: static;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery h1 {
+    color: #001f3f;
+    /* Navy blue */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.media-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.video {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Adjust the number of columns as needed */
+    grid-gap: 10px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Add this CSS to your existing styles.css file */
+
+.resources {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.resources h1 {
+    text-align: center;
+}
+
+.resource {
+    background-color: #f9f9f9;
+    /* Light gray */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resource h2 {
+    color: #001f3f;
+    /* Navy blue */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.resource p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.vision-mission {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.vision-mission h1 {
+    color: #001f3f;
+    /* Navy blue */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.vision-mission-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.vision,
+.mission {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.vision h2,
+.mission h2 {
+    color: #001f3f;
+    /* Navy blue */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.vision p,
+.mission p {
+    margin-bottom: 20px;
+}
+
+.vision ul,
+.mission ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.vision ul li,
+.mission ul li {
+    margin-bottom: 10px;
+}
+
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-us h1 {
+    color: #001f3f;
+    /* Navy blue */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.story,
+.values,
+.mission,
+.commitment {
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.story h2,
+.values h2,
+.mission h2,
+.commitment h2 {
+    color: #001f3f;
+    /* Navy blue */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.story p,
+.values p,
+.mission p,
+.commitment p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #001f3f;
+    /* Navy blue */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
